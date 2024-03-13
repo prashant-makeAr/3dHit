@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #012825;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+
+h1 {
+  font-size: 8rem;
+}
+p {
+  font-size: 2rem;
+  padding: 50px;
+  max-width: 800px;
+}
+
+#canvas {
+  border: 2px solid white;
+  position: static;
+  display: block;
+  /* width: 700px;
+  height: 300px; */
+}
